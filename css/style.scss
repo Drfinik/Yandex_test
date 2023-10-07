@@ -33,19 +33,19 @@ img {
 
 .container {
     max-width: 1440px;
-    margin: 0 auto;
+    // margin: 0 auto;
 
 }
 
 .header {
-    padding: 124.94px 0 124.94px 262px;
+    padding: 124.94px 0 115px 262px;
     flex-shrink: 0;
     background-image: url('/img/header__background.png');
     background-repeat: no-repeat;
 }
 
 .top__img {
-    margin-bottom: 65px;
+    margin-bottom: 63px;
 }
 
 h1 {
@@ -61,14 +61,18 @@ h1 {
 }
 
 p {
-    max-width: 420px;
-    display: block;
+
     color: #21201F;
     font-family: 'text-medium';
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 130%;
+
+}
+
+.header__text {
+    max-width: 420px;
     margin-bottom: 35px;
 }
 
@@ -91,11 +95,11 @@ p {
 }
 
 .advantages {
-    padding: 0 0 128px 262px;
+    padding: 2px 0 121px 262px;
 }
 
 h2 {
-    max-width: 650px;
+
     color: #21201F;
     font-family: 'text-black';
     font-size: 56px;
@@ -103,21 +107,85 @@ h2 {
     font-weight: 900;
     line-height: 100%;
     letter-spacing: -1.12px;
-    margin-bottom: 48px;
+
+}
+
+.advantages__header {
+    max-width: 650px;
+    margin-bottom: 40px;
 }
 
 .advantages__description {
     display: flex;
+    flex-wrap: wrap;
+    gap: 62px 80px;
 }
+
+.advantages__description__card {
+    width: 395px;
+}
+
+.description__text {
+    padding-top: 18px;
+    line-height: 120%;
+}
+
 
 .exclusive {
     padding: 0 0 128px 262px;
 }
-.exclusive__img {
-    display: flex;
-    gap: 8.07px;
+
+.exclusive__header {
+    max-width: 827px;
+    font-size: 48px;
+    letter-spacing: -0.96px;
+    margin-bottom: 35px;
 }
 
+.exclusive__text {
+    max-width: 442px;
+    line-height: 120%;
+    margin-bottom: 69.18px;
+}
+
+.exclusive__img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8.07px;
+
+}
+
+.card__img {
+    
+    border: 1px ;    
+    
+
+
+}
+
+.card__img__1 {
+    translate: -12px -7px;
+}
+.card__img__2 {
+    translate: -7px -218px;
+}
+.card__img__3 {
+    translate: -30px -7px;
+}
+.card__img__4 {
+    translate: -25px -218px;
+}
+.smile__img__1 {
+    translate: -232px -1100px;
+}
+.smile__img__2 {
+    translate: 213px -1416px;
+    transform: rotate(14deg);
+}
+
+.smile__img__3 {
+    translate: 575px -1157px;
+}
 .plus {
     display: flex;
     padding: 0 0 128px 262px;
@@ -141,14 +209,15 @@ h2 {
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
-    
+
 }
+
 a {
-    color: #C5C5C5; 
+    color: #C5C5C5;
     font-family: 'text-regular';
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%;   
+    line-height: 120%;
     text-decoration-line: underline;
 }
